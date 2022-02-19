@@ -1,11 +1,11 @@
 # dotfiles
 
-> 💻 dotfiles and 🚀 more (ElementaryOS).
+> 💻 dotfiles and 🚀 more.
 
 ### 🧰 general installation
 
 ```sh
-yes | /bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/harrytran103/dotfiles-for-linux/main/install.sh)"
+yes | /bin/bash -c "$(curl -sSL https://raw.githubusercontent.com/quanhieu/dotfiles-for-linux/main/install.sh)"
 ```
 
 ### ⚙️ ibus-unikey
@@ -23,12 +23,12 @@ Add **ibus-daemon -drx** to **startup**
 ### 🔑 generating a new SSH key
 
 ```sh
-ssh-keygen -t rsa -b 4096 -C "harrytran103@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "hieutq1188@gmail.com"
 cat ~/.ssh/id_rsa.pub
 ```
 
 ### 💅 other
-
+- [ibus-bamboo](https://github.com/BambooEngine/ibus-bamboo)
 - [night-owl-pantheon](https://github.com/harrytran103/night-owl-pantheon) - 🌌🦉Night Owl theme for Pantheon terminal.
 - [dracula-pantheon](https://github.com/harrytran103/dracula-pantheon) - 🧛🏻‍♂️ Dark theme for Pantheon terminal.
 - [mediumship](https://github.com/swapagarwal/mediumship) - 📚 Read all Medium stories for free!
